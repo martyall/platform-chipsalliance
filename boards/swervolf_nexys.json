@@ -1,7 +1,7 @@
 {
   "build": {
     "f_cpu": "320000000L",
-    "extra_flags": "-DD_NEXYS_A7 -DD_SWERV_EH1",
+    "extra_flags": "-DD_NEXYS_A7 -DD_SWERV_EH1 -DD_SWERV_EL2",
     "hwids": [
       [
         "0x0403",

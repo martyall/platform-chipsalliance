@@ -23,7 +23,6 @@ env.Append(
         ("D_ISR_STACK_SIZE", 400),
         ("D_MTIME_ADDRESS", "0x80001020"),
         ("D_MTIMECMP_ADDRESS", "0x80001028"),
-        ("D_CLOCK_RATE", 50000000),
         ("D_PIC_BASE_ADDRESS", "0xF00C0000"),
         ("D_PIC_NUM_OF_EXT_INTERRUPTS", 256),
         ("D_EXT_INTERRUPT_FIRST_SOURCE_USED", 0),
@@ -75,7 +74,7 @@ libs.append(
             "+<psp_ext_interrupts_eh1.c>",
             "+<psp_timers_eh1.c>",
             "+<psp_pmc_eh1.c>",
-            "+<psp_performance_monitor_eh1.c>",
+            "+<psp_performance_monitor_el2.c>",
             "+<psp_nmi_eh1.c>",
             "+<psp_corr_err_cnt_eh1.c>",
             "+<psp_int_vect_eh1.S>"
