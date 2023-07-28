@@ -52,6 +52,7 @@ class ChipsalliancePlatform(PlatformBase):
                 "-s",
                 os.path.join(
                     self.get_package_dir("framework-wd-riscv-sdk") or "",
+                    "WD-Firmware",
                     "board",
                     board.get("build.variant", ""),
                 ),
