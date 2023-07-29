@@ -42,7 +42,7 @@
       "type": "framework",
       "optional": false,
       "owner": "platformio",
-      "version": "0.0.0-alpha+sha.ca4b2392d8"
+      "version": "0.0.0+sha.8714aba"
     },
     "tool-openocd-riscv-chipsalliance": {
       "type": "uploader",

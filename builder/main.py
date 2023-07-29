@@ -210,6 +210,7 @@ env.AddPlatformTarget(
                 '"%s"'
                 % os.path.join(
                     platform.get_package_dir("framework-wd-riscv-sdk") or "",
+                    "WD-Firmware",
                     "board",
                     board_config.get("build.variant", ""),
                 ),

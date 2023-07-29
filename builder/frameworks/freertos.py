@@ -20,6 +20,7 @@ env = DefaultEnvironment()
 platform = env.PioPlatform()
 
 FIRMWARE_DIR = platform.get_package_dir("framework-wd-riscv-sdk")
+FIRMWARE_DIR = os.path.join(FIRMWARE_DIR, "WD-Firmware")
 assert os.path.isdir(FIRMWARE_DIR)
 
 if "wd-riscv-sdk" not in env.subst("$PIOFRAMEWORK"):
